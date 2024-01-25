@@ -222,8 +222,8 @@ h6 {
 }
 
 .card__image {
-  width: 360px;
-  height: 360px;
+  width: 320px;
+  height: 320px;
   object-fit: contain;
   aspect-ratio: 1;
   margin: auto;
@@ -237,22 +237,58 @@ h6 {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
+}
+
+.card__content img {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto;
+}
+
+.card__content button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #343ab7;
+  width: 145px;
+  margin: 0 auto;
+}
+.card__content span {
+  color: #343ab7;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .card__title {
-  padding: 0;
+  /* padding: 0;
   margin: 0;
-  font-size: 60px;
+  font-size: 32px;
   font-weight: 600;
-  color: #16263a;
+  color: #16263a; */
+  text-align: center;
+  color: #000;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .card__description {
-  line-height: 1.4;
-  font-size: 20px;
-  color: #16263a;
-  text-align: left;
+  color: #202020;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .space {
